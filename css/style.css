@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header  */
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 40px 0.4%;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+.pulsanti a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #4a4a4a;
+    border-radius: 6px;
+}
+
+.margin-destro{
+    margin-right: 6px;
+}
+
+/* Footer  */
+
+footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;color: white;
+    background-color: #222222;
+}
+footer a{
+    color: white;
+    text-decoration:none;
+    font-size: 2rem;
+}
+
+footer .bottom-left{
+    display: flex;
+}
+
+footer .bottom-left div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .bottom-left .angle-up{
+    justify-content: center;
+    padding: 0 0.5rem;
+}
+
+footer .bottom-left .microfono{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 14px;
+    padding-left: 1rem;
+}
+
+footer .bottom-center{
+    display: flex;
+}
+
+footer .bottom-center .simboli{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+footer .bottom-center .angle-up{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+.bottom-center .simboli .verde{
+    color: #4bc800;
+}
+footer .bottom-right{
+    display: flex;
+}
+
+footer .bottom-right div{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+footer .bottom-right a{
+    color: red;
+    font-size: 1rem;
+}
+
