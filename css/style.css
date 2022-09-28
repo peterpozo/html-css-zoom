@@ -6,6 +6,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 /* Header  */
 header{
@@ -13,10 +14,11 @@ header{
     justify-content: flex-end;
     align-items: center;
     padding: 40px 0.4%;
-    z-index: 999;
+    /* z-index: 999; */
     position: sticky;
     top: 0;
     left: 0;
+    right: 0;
     background-color: black;
 }
 
@@ -32,6 +34,25 @@ header{
     margin-right: 6px;
 }
 
+/* Main  */
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4em;
+    margin-top: 1rem;
+    overflow-y: auto;
+    background-color: black;
+}
+
+main .main-pic{
+    flex-basis: calc(100% / 7 - 6em / 7);
+}
+
+main .main-pic img{
+    width: 100%;
+}
 /* Footer  */
 
 footer{
@@ -40,6 +61,11 @@ footer{
     display: flex;
     justify-content: space-between;color: white;
     background-color: #222222;
+    position: fixed;
+    /* z-index: 100000; */
+    bottom:0;
+    right: 0;
+    left: 0;
 }
 footer a{
     color: white;
